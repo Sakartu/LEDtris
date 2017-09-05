@@ -142,7 +142,8 @@ file = 'tetris.mp3'
 pygame.mixer.music.load(file)
 pygame.mixer.music.play(loops=-1)
 
-print('Welcome to tetris!')
+print('Welcome to LEDtris!')
+print('The source is adapted from the pygame "mytetris" project by Manabu Oguma, which can be found at https://sourceforge.net/projects/mytetris/')
 print('Original Tetris Theme (Tetris Soundtrack) Gameboy by Sanitaryum is licensed under a Creative Commons License (https://creativecommons.org/licenses/by-nc/3.0/).')
 print('The music can be found at https://soundcloud.com/sanitaryum/original-tetris-theme-tetris')
 
