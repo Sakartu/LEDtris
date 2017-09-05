@@ -25,7 +25,8 @@ def draw(grid, pos=None):
                 if 0 <= i < CELLS:
                     c = eval(grid[i]+".color") if grid[i] else COLOR_BG
                     screen.fill(c, (i % COLS, i // COLS, 1, 1))
-        print()
+        if '-v' in sys.argv:
+            print()
     else:   # all
         screen.clear()
         for i, occupied in enumerate(grid):
@@ -103,7 +104,8 @@ class LEDScreen(object):
         except Exception:
             self.connect()
             self.conn.publish('/ledstrip', msg, retain=True)
-        self.print_msg(msg)
+        if '-v' in sys.argv:
+            self.print_msg(msg)
         pygame.display.flip()
 
     @staticmethod
