@@ -140,7 +140,7 @@ pygame.display.update()
 
 file = 'tetris.mp3'
 pygame.mixer.music.load(file)
-pygame.mixer.music.play()
+pygame.mixer.music.play(loops=-1)
 
 print('Welcome to tetris!')
 print('Original Tetris Theme (Tetris Soundtrack) Gameboy by Sanitaryum is licensed under a Creative Commons License (https://creativecommons.org/licenses/by-nc/3.0/).')
