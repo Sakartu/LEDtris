@@ -1,6 +1,8 @@
 # LEDtris
 
-LEDtris is a LED-screen powered Tetris clone that was created on our holiday to Croatia and Germany. It supposes a LED screen, connected to an MQTT broker service, which can be specified as the first argument to tetris.py.
+LEDtris is a LED-screen powered Tetris clone that was created on our holiday to Croatia and Germany. It supposes a LED screen, connected to an MQTT broker service, which can be specified as the first argument to tetris.py. Furthermore, it supports a '-v' as a second argument to print the state of the game to terminal, if necessary.
+
+It requires the paho-mqtt and pygame pip packages to be installed.
 
 The source is adapted from the pygame "mytetris" project by Manabu Oguma, which can be found at https://sourceforge.net/projects/mytetris/
 
