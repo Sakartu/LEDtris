@@ -143,7 +143,7 @@ pygame.mixer.music.load(file)
 pygame.mixer.music.play()
 
 print('Welcome to tetris!')
-print('Original Tetris Theme (Tetris Soundtrack) Gameboy by Sanitaryum is licensed under a Creative Commons License.')
+print('Original Tetris Theme (Tetris Soundtrack) Gameboy by Sanitaryum is licensed under a Creative Commons License (https://creativecommons.org/licenses/by-nc/3.0/).')
 print('The music can be found at https://soundcloud.com/sanitaryum/original-tetris-theme-tetris')
 
 while True:  # start(restart) game
